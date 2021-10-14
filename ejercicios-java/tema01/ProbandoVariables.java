@@ -9,5 +9,6 @@ public class ProbandoVariables {
     double numero1 = 12.9999d;
     System.out.println(numero);
     System.out.println(numero1);
+    System.out.println("" + numero + numero1);
   }
 }
