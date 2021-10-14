@@ -8,7 +8,7 @@ public class Operadores {
     String elTiempoDeHoy = "Lluvioso";
     int x = 3;
     
-    int suma = ++x;
-    System.out.println(suma);
+    int incremento = ++x;
+    System.out.println(incremento);
   }
 }
