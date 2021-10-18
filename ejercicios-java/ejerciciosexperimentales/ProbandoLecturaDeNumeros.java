@@ -2,7 +2,7 @@
  *
  * @author Francisco J. Sicilia
  */
-public class Ejercicio1 {
+public class ProbandoLecturaDeNumeros {
   public static void main(String[] args) {
   
   System.out.println("Introduce el nobre de una fruta: ");
