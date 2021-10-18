@@ -9,8 +9,8 @@ public class Ejercicio3 {
     String nombre = "Francisco Javier Sicilia Pérez";
     String direccion = "Calle Jacinto Nº 12";
     long telefono = 7733936l;
-    System.out.println("Mi nombre es " + nombre);
-    System.out.println("Mi numero de telefono es " + telefono);
-    System.out.println("Mi direccion es " + direccion);
+    System.out.println("Nombre: " + nombre);
+    System.out.println("Número de telefono: " + telefono);
+    System.out.println("Direccion: " + direccion);
   }
 }
