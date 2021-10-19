@@ -14,7 +14,7 @@ public class Ejercicio7 {
   
     double preciofinal = precioSinIva * iva;
     
-    
+    System.out.println("-------------------------------------------");
     System.out.println("El precio sin iva es: " + precioSinIva + " euros");
     System.out.println("El IVA es: " + iva + " euros" );
     System.out.println("El precio final es: " + preciofinal + " euros");
