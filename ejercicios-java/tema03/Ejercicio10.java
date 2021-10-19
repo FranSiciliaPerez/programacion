@@ -2,19 +2,16 @@
  *
  * @author Francisco J. Sicilia
  */
-public class Ejercicio9 {
+public class Ejercicio10 {
   public static void main(String[] args) {
   
-    System.out.println("--Calcula el volumen de un cono segun la fómula V = ½r2h --");
-    System.out.printf("Introduce el radio del cono en cm: ");
-    double radio = Double.parseDouble(System.console().readLine());
+    System.out.println("--Conversor de Mb a Kb --");
+    System.out.printf("Introduce la cantidad de Mb que quieres pasar a Kb: ");
+    double megaBite = Double.parseDouble(System.console().readLine());
   
-    System.out.printf("Introduce la altura del cono en cm: ");
-    double altura = Double.parseDouble(System.console().readLine());
-    
-    double volumenCono = (radio * radio * Math.PI * altura) / 3;
+    double conversion = megaBite * 1000;
       
-    System.out.println("El volumen del cono es: " + volumenCono);
+    System.out.println("Estos " + megaBite + " Mb son: " + conversion + " Kb");
   
   }
 }
