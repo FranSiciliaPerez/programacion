@@ -1,5 +1,6 @@
 /**
- * Fecha 14/10/2021
+ * Realiza un conversor de pesetas a euros. La cantidad en pesetas que se quiere
+ * convertir deberá estar almacenada en una variable.
  *
  * @author Francisco J. Sicilia
  */

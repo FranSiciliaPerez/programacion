@@ -1,5 +1,7 @@
 /**
- * Fecha 14/10/2021
+ * Escribe un programa que calcule el total de una factura a partir de la base
+ * imponible (precio sin IVA). La base imponible estará almacenada en una
+ * variable.
  *
  * @author Francisco J. Sicilia
  */
