@@ -7,14 +7,14 @@ public class Ejercicio4 {
   
   System.out.println("--Operacion de suma, resta, division y multiplicación con los número introducido por teclado--");
   System.out.printf("Introduce el valor del primer número: ");
-  int numero1 = Integer.parseInt(System.console().readLine());
+  double numero1 = Double.parseDouble(System.console().readLine());
   
   System.out.printf("Introduce el valor del segundo número: ");
-  int numero2 = Integer.parseInt(System.console().readLine());
+  double numero2 = Double.parseDouble(System.console().readLine());
   
-  int suma = numero1 + numero2;
+  double suma = numero1 + numero2;
   
-  int resta = numero1 -numero2;
+  double resta = numero1 -numero2;
   
   double multiplicacion = numero1 * numero2;
   
