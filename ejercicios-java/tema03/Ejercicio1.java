@@ -14,7 +14,7 @@ public class Ejercicio1 {
   
   int multiplicacion = primerNumero * segundoNumero;
   
-  System.out.println("La multiplicación de los dos números introducidos es: " + multiplicacion);
+  System.out.println("La multiplicación de los dos números(" + primerNumero + ", " + segundoNumero + ") introducidos es: " + multiplicacion);
    
   }
 }
