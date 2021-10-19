@@ -1,5 +1,7 @@
 /**
- *
+ * Escribe un programa que sume, reste, multiplique y divida dos números
+ * introducidos por teclado.
+ * 
  * @author Francisco J. Sicilia
  */
 public class Ejercicio4 {

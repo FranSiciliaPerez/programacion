@@ -1,5 +1,7 @@
 /**
- *
+ * Escribe un programa que calcule el total de una factura a partir de la base
+ * imponible.
+ * 
  * @author Francisco J. Sicilia
  */
 public class Ejercicio7 {

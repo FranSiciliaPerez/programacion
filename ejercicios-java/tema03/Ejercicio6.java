@@ -1,5 +1,6 @@
 /**
- *
+ * Escribe un programa que calcule el área de un triángulo.
+ * 
  * @author Francisco J. Sicilia
  */
 public class Ejercicio6 {

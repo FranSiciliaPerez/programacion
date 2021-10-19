@@ -1,5 +1,6 @@
 /**
- *
+ * Realiza un conversor de Kb a Mb.
+ * 
  * @author Francisco J. Sicilia
  */
 public class Ejercicio11 {

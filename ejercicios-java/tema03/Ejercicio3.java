@@ -1,5 +1,7 @@
 /**
- *
+ * Realiza un conversor de pesetas a euros. La cantidad de pesetas que se quiere
+ * convertir debe ser introducida por teclado.
+ * 
  * @author Francisco J. Sicilia
  */
 public class Ejercicio3 {
@@ -13,7 +15,6 @@ public class Ejercicio3 {
   
   System.out.println(" -----------------------------");
   System.out.println(" " + pesetas + " pesetas son " + pesetasAEuros + " euros");
-  
   
   }
 }
