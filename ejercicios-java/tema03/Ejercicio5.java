@@ -7,12 +7,12 @@ public class Ejercicio5 {
   
   System.out.println("--Calcula el área del rectangulo en centímetros--");
   System.out.printf("Introduce la base del rectángulo: ");
-  int base = Integer.parseInt(System.console().readLine());
+  double base = Double.parseDouble(System.console().readLine());
   
   System.out.printf("Introduce la altura del rectángulo: ");
-  int altura = Integer.parseInt(System.console().readLine());
+  double altura = Double.parseDouble(System.console().readLine());
   
-  int areaRectangulo = base * altura;
+  double areaRectangulo = base * altura;
   
   System.out.println("El área del rectángulo de base " + base + " y de altura " + altura + " es: " + areaRectangulo + " cm2");
   

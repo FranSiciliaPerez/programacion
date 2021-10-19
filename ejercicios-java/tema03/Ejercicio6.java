@@ -7,12 +7,12 @@ public class Ejercicio6 {
   
   System.out.println("--Calcula el área del triángulo en centímetros--");
   System.out.printf("Introduce la base del triángulo: ");
-  int base = Integer.parseInt(System.console().readLine());
+  double base = Double.parseDouble(System.console().readLine());
   
   System.out.printf("Introduce la altura del triángulo: ");
-  int altura = Integer.parseInt(System.console().readLine());
+  double altura = Double.parseDouble(System.console().readLine());
   
-  int areaTriangulo = (base * altura) / 2;
+  double areaTriangulo = (base * altura) / 2;
   
   System.out.println("El área del triángulo de base " + base + " y de altura " + altura + " es: " + areaTriangulo + " cm2");
   
