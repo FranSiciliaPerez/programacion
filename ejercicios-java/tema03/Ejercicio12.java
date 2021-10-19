@@ -11,11 +11,11 @@ public class Ejercicio12 {
   
   
     System.out.printf("¿Qué nota quieres sacar en el trimestre? ");
-    double examen1 = Double.parseDouble(System.console().readLine());
+    double notaTrimestre = Double.parseDouble(System.console().readLine());
     
-    double conversion = kiloBite / 1000;
+    double examen2 = ((notaTrimestre * 100) - (examen1 * 40)) / 60;
       
-    System.out.println("Para tener un 8.5 en el trimestre necesitas sacar un 9.5 en el segundo examen.");
+    System.out.println("Para tener un " + notaTrimestre + " en el trimestre necesitas sacar un " + examen2 + "en el segundo examen.");
   
   }
 }
