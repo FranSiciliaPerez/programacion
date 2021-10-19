@@ -9,7 +9,7 @@ public class Ejercicio3 {
   System.out.printf("Escriba a continuación las pesetas que quiere pasar a euros: ");
   int pesetas = Integer.parseInt(System.console().readLine());
   
-  double pesetasAEuros = pesetas * 0.006;
+  double pesetasAEuros = (double)(pesetas * 0.006);
   
   System.out.println(" -----------------------------");
   System.out.println(" " + pesetas + " pesetas son " + pesetasAEuros + " euros");
