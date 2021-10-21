@@ -15,7 +15,7 @@ public class Ejercicio9 {
     
     double volumenCono = (radio * radio * Math.PI * altura) / 3;
       
-    System.out.println("El volumen del cono es: " + volumenCono);
+    System.out.println("El volumen del cono es: " + volumenCono + " cm3");
   
   }
 }
