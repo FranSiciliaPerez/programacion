@@ -12,14 +12,16 @@ public class Ejercicio4 {
     System.out.println("--Calcula el salario semanal según las horas trabajadas, a razón de 12 euros la hora.--");
     System.out.printf("Introduce las horas trabajadas por semana: ");
     double horasSemanales = Double.parseDouble(System.console().readLine());
-    double salarioSemanal = horasSemanales * 12;
     
     if (horasSemanales <= 40) {
+      double salarioSemanal = horasSemanales * 12;
       System.out.println("El salario semanal por trabajar " + horasSemanales + " horas semanales es de : " + salarioSemanal + " euros");
     }
     if (horasSemanales >= 41) {
-      double salarioExtra = (horasSemanales - 41) * 16;
-      double salarioTotal = salarioExtra + salarioSemanal;
+      double horasExtra = (horasSemanales - 40);
+      double salarioExtra =  horasExtra * 16;
+      double salarioNormal = (horasSemanales - horasExtra) * 12;
+      double salarioTotal = salarioExtra + salarioNormal;
       System.out.println("El salario semanal por trabajar " + horasSemanales + " horas semanales es de : " + salarioTotal + " euros");
     }
   }
