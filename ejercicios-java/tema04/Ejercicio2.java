@@ -21,8 +21,5 @@ System.out.println("A continuación escriba la hora actual");
     if ((horaDelDia > 20) || (horaDelDia < 6)) {
           System.out.println("Buenas noches");
     } 
-    
-    
-    
   }
 }
