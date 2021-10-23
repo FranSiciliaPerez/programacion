@@ -33,7 +33,7 @@ public class Ejercicio3 {
         System.out.println("Domingo");  
         break;
     default:
-        System.out.println("El " + diaDeLaSemana + " introducido no existe");
+        System.out.println("El " + diaDeLaSemana + " no e un dia de la semana");
     }
   }
 }
