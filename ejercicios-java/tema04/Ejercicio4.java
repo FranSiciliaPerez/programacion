@@ -15,14 +15,14 @@ public class Ejercicio4 {
     
     if (horasSemanales <= 40) {
       double salarioSemanal = horasSemanales * 12;
-      System.out.println("El salario semanal por trabajar " + horasSemanales + " horas semanales es de : " + salarioSemanal + " euros");
+      System.out.println("El salario por trabajar " + horasSemanales + " horas semanales es de : " + salarioSemanal + " euros");
     }
     if (horasSemanales >= 41) {
       double horasExtra = (horasSemanales - 40);
       double salarioExtra =  horasExtra * 16;
       double salarioNormal = (horasSemanales - horasExtra) * 12;
       double salarioTotal = salarioExtra + salarioNormal;
-      System.out.println("El salario semanal por trabajar " + horasSemanales + " horas semanales es de : " + salarioTotal + " euros");
+      System.out.println("El salario por trabajar " + horasSemanales + " horas semanales es de : " + salarioTotal + " euros");
     }
   }
 }
