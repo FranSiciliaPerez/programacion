@@ -11,7 +11,7 @@ public class Ejercicio6 {
     double h = Double.parseDouble(System.console().readLine());
     
     double tiempo = Math.sqrt((2 * h)/9.81);
-    System.out.println("El tiempo que tarda el objeto en caer desde " + h + " es " + tiempo + " segundos");
+    System.out.printf("El tiempo que tarda el objeto en caer desde %f  es %f segudos", h , tiempo);
    
   }
 }
