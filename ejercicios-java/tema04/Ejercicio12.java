@@ -1,10 +1,9 @@
 /**
- * Escribe un programa que dada una hora determinada (horas y minutos), calcule
- * los segundos que faltan para llegar a la medianoche.
+ * Realiza un programa que calcule la media de tres notas
  * 
  * @author Francisco J. Sicilia
  */
-public class Ejercicio11 {
+public class Ejercicio12 {
   public static void main(String[] args) {
   
     System.out.println("A continuación introduce una hora determinada");
