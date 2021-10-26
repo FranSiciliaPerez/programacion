@@ -13,8 +13,10 @@ public class Ejercicio11 {
     System.out.printf("Por favor, introduzca los minutos: ");
     double minutos = Double.parseDouble(System.console().readLine());
     
+    double horasASegundos = (horas * 3600) + (minutos * 60);
+    double segundosRestantes  = (86400 - horasASegundos); 
     
-    double notaMedia = (nota1 + nota2 + nota3) / 3;
+    System.out.printf("Segun las horas y minutos introducidos, faltan: " +segundosRestantes);
     
    
   }
