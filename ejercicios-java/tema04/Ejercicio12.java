@@ -10,15 +10,10 @@ public class Ejercicio12 {
     System.out.printf("Por favor, introduzca la hora: ");
     String respuesta1 = System.console().readLine();
     
-    switch (respuesta1) {
-       case "a":
-       case "A":
-        int primeraPregunta = 1;
-       int resultadoExamen = primeraPregunta + 1;
-       System.out.println("Has sacado un: " + resultadoExamen + " en el examen");
-       break;
-       
+    if ((respuesta1.equals ("a")) || (respuesta1.equals ("A"))) {
+      System.out.printf("Por favor, introduzca la hora: ");
     }
+    
     
     
     
