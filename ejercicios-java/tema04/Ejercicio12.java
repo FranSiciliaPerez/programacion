@@ -94,9 +94,6 @@ public class Ejercicio12 {
     if ((respuesta9.equals ("b")) || (respuesta9.equals ("B"))) {
       int resultado9 = resultado3 + 1;
     }
-    if ((respuesta10.equals ("b")) || (respuesta10.equals ("B"))) {
-      int resultado10 = resultado3 + 1;
-    }
    */
    switch (respuesta1) {
       case "a":
