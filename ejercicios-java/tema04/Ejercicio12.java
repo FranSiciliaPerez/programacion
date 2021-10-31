@@ -13,7 +13,9 @@ public class Ejercicio12 {
     if ((respuesta1.equals ("a")) || (respuesta1.equals ("A"))) {
       System.out.printf("Por favor, introduzca la hora: ");
     }
-    
+    if ((respuesta1.equals ("b")) || (respuesta1.equals ("B"))) {
+      System.out.printf("Por favor, introduzca la hora: ");
+    }
     
     
     
