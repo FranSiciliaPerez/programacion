@@ -17,7 +17,7 @@ public class Ejercicio11 {
     double horasASegundos = (horas * 3600) + (minutos * 60);
     double segundosRestantes  = (86400 - horasASegundos); 
     
-    System.out.printf("Segun las horas y minutos introducidos, faltan: " +segundosRestantes+ " segundos para las 12h d");
+    System.out.printf("Segun las horas y minutos introducidos, faltan: " +segundosRestantes+ " segundos para media noche");
     
    
   }
