@@ -7,15 +7,6 @@ public class Ejercicio12 {
   public static void main(String[] args) {
     
     int resultado1;
-    int resultado2;
-    int resultado3;
-    int resultado4;
-    int resultado5;
-    int resultado6;
-    int resultado7;
-    int resultado8;
-    int resultado9;
-    int resultado10;
     System.out.println("A continuación vas a proceder a realizar un questionario tipo test de 10 preguntas sobre las asignaturas que se imparten en el curso: ");
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
@@ -26,6 +17,7 @@ public class Ejercicio12 {
       resultado1 = 1;
     }
     
+    int resultado2;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -35,7 +27,7 @@ public class Ejercicio12 {
       resultado2 = (resultado1 + 1);
     }
     
-    
+    int resultado3;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -45,7 +37,7 @@ public class Ejercicio12 {
       resultado3 = resultado2 + 1;
     }
     
-    
+    int resultado4;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -54,7 +46,7 @@ public class Ejercicio12 {
     if ((respuesta4.equals ("b")) || (respuesta4.equals ("B"))) {
       resultado4 = resultado3 + 1;
     }
-    
+    int resultado5;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -64,6 +56,7 @@ public class Ejercicio12 {
       resultado5 = resultado3 + 1;
     }
     
+    int resultado6;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -73,6 +66,8 @@ public class Ejercicio12 {
       resultado6 = 1;
     }
     
+    
+    int resultado7;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -82,6 +77,7 @@ public class Ejercicio12 {
       resultado7 = resultado6 + 1;
     }
     
+    int resultado8;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -91,6 +87,8 @@ public class Ejercicio12 {
       resultado8 = resultado2 + 1;
     }
     
+    
+    int resultado9;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
@@ -100,6 +98,8 @@ public class Ejercicio12 {
       resultado9 = resultado3 + 1;
     }
     
+    
+    int resultado10;
     System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
