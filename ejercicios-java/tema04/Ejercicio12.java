@@ -1,6 +1,10 @@
 /**
- * Realiza un programa que calcule la media de tres notas
- * 
+ * 12. Realiza un minicuestionario con 10 preguntas tipo test sobre las
+* asignaturas que se imparten en el curso. Cada pregunta acertada
+* sumará un punto. El programa mostrará al final la califcación
+* obtenida. Pásale el minicuestionario a tus compañeros y pídeles
+* que lo hagan para ver qué tal andan de conocimientos en las
+* diferentes asignaturas del curso.
  * @author Francisco J. Sicilia
  */
 public class Ejercicio12 {
@@ -18,7 +22,7 @@ public class Ejercicio12 {
     }
     
     int resultado2;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Segunda pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -28,7 +32,7 @@ public class Ejercicio12 {
     }
     
     int resultado3;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Tercera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -38,7 +42,7 @@ public class Ejercicio12 {
     }
     
     int resultado4;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Cuarta pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -47,7 +51,7 @@ public class Ejercicio12 {
       resultado4 = resultado3 + 1;
     }
     int resultado5;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Quinta pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -57,7 +61,7 @@ public class Ejercicio12 {
     }
     
     int resultado6;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Sexta pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -68,7 +72,7 @@ public class Ejercicio12 {
     
     
     int resultado7;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Séptima pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -78,7 +82,7 @@ public class Ejercicio12 {
     }
     
     int resultado8;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Octaba pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -89,7 +93,7 @@ public class Ejercicio12 {
     
     
     int resultado9;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Novena pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
@@ -100,7 +104,7 @@ public class Ejercicio12 {
     
     
     int resultado10;
-    System.out.printf("Primera pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
+    System.out.printf("Décima pregunta: ¿Que lenguaje de los siguientes se utiliza en LM? ");
     System.out.printf("a-  ");
     System.out.printf("b-  ");
     System.out.printf("c-  ");
