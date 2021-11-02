@@ -3,7 +3,7 @@
  * 
  * @author Francisco J. Sicilia
  */
-public class Ejercicio19 {
+public class Ejercicio21 {
   public static void main(String[] args) {
     
    
