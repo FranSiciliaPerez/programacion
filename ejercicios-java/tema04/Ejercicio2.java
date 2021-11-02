@@ -9,7 +9,7 @@
 public class Ejercicio2 {
   public static void main(String[] args) {
   
-System.out.println("A continuación escriba la hora actual");
+    System.out.println("A continuación escriba la hora actual");
     int horaDelDia = Integer.parseInt(System.console().readLine());
     
     if ((horaDelDia > 5) && (horaDelDia < 12)) {

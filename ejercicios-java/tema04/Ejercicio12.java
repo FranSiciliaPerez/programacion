@@ -105,7 +105,7 @@ public class Ejercicio12 {
     if ((respuesta.equals ("b")) || (respuesta.equals ("B"))) {
       resultado++;
     }
-   
+   System.out.println("La calificacion obtenida es de: " +resultado);
    
   }
 }
