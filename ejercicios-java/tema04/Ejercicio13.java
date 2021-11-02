@@ -16,9 +16,11 @@ public class Ejercicio13 {
     System.out.println("Añade el tercer número");
     int tercerNumero = Integer.parseInt(System.console().readLine());
     
-    if ((primerNumero = segundoNumero) && (tercerNumero = segundoNumero)){
+    if ((primerNumero >= segundoNumero) && (tercerNumero >= segundoNumero)){
       System.out.println("Numeros introducidos ordenados: " +primerNumero + segundoNumero + tercerNumero); 
     }
-   
+    if (() {
+      
+  }
   }
 }
