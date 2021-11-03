@@ -11,10 +11,18 @@ public class Ejercicio14 {
     System.out.println("Introduce un número");
     int a = Integer.parseInt(System.console().readLine());
     
-    if ((a%2) == (0)) {
+    if ((a % 2) == (0)) {
       System.out.println("Par");
+    } else {
+          System.out.println("Introduce un número");
     }
    
+    if ((a / 5) == (0)) {
+      System.out.println("Par");
+    } else {
+          System.out.println("Introduce un número");
+    }
    
+    
   }
 }
