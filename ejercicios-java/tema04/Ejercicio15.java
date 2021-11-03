@@ -16,7 +16,7 @@ public class Ejercicio15 {
     System.out.println("2- Vertice abajo");
     System.out.println("3- Vertice izquierda");
     System.out.println("4- Vertice derecha");
-    System.out.printf("Selecciona el número o el simbolo que quiere utilzar");
+    System.out.print("Selecciona el número o el simbolo que quiere utilzar: ");
     int posicion = Integer.parseInt(System.console().readLine());
     
    switch(posicion) {
