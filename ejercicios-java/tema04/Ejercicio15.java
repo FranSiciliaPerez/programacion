@@ -9,26 +9,43 @@
  */
 public class Ejercicio15 {
   public static void main(String[] args) {
-    System.out.println("1- *");
-    System.out.println("2- +");
-    System.out.println("3- -");
-    System.out.println("4- $");
-    System.out.println("5- &");
+    
+    System.out.printf("Introduce el caracter con el que quiere formar la pirámide: ");
+    String c = System.console().readLine();
+    System.out.println("1- Vertice arriba");
+    System.out.println("2- Vertice abajo");
+    System.out.println("3- Vertice izquierda");
+    System.out.println("4- Vertice derecha");
     System.out.printf("Selecciona el número o el simbolo que quiere utilzar");
-    int simbolo = Integer.parseInt();
-   switch (simbolo) {
+    int posicion = Integer.parseInt(System.console().readLine());
+    
+   switch(posicion) {
       case 1:
-        
+        System.out.println("  " + c);
+        System.out.println(" " + c + c + c);
+        System.out.println(c + c + c + c + c);
+        break;
       case 2:
-      
+        System.out.println(c + c + c + c + c);
+        System.out.println(" " + c + c + c);
+        System.out.println("  " + c);
+        break;
       case 3:
-      
+        System.out.println("    " + c);
+        System.out.println("  " + c + " " + c);
+        System.out.println(c + " " + c + " " + c);
+        System.out.println("  " + c + " " + c);
+        System.out.println("    " + c);
+        break;
       case 4:
-      
-      case 5:
-      
-      break;
-     }
+        System.out.println(c);
+        System.out.println(c + " " + c);
+        System.out.println(c + " " + c + " " + c);
+        System.out.println(c + " " + c);
+        System.out.println(c);
+        break;
+      default:
+    }
    
   }
 }
