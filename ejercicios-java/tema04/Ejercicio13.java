@@ -6,6 +6,7 @@
 public class Ejercicio13 {
   public static void main(String[] args) {
     
+    int aux;
     System.out.println("Escriba tres números y el programa los ordenará");
     System.out.println("Añade el primer número");
     int primerNumero = Integer.parseInt(System.console().readLine());
@@ -16,11 +17,23 @@ public class Ejercicio13 {
     System.out.println("Añade el tercer número");
     int tercerNumero = Integer.parseInt(System.console().readLine());
     
-    if ((primerNumero >= segundoNumero) && (tercerNumero >= segundoNumero)){
-      System.out.println("Numeros introducidos ordenados: " +primerNumero + segundoNumero + tercerNumero); 
+    
+    
+    if (primerNumero > segundoNumero) {
+      aux = primerNumero;
+      primerNumero = segundoNumero; 
+      segundoNumero = aux;
     }
-    if (() {
-      
-  }
+    if (segundoNumero > tercerNumero) {
+      aux = segundoNumero;
+      segundoNumero = tercerNumero;
+      tercerNumero = aux;
+    }
+    if (segundoNumero > primerNumero) {
+      aux = primerNumero;
+      primerNumero = segundoNumero;
+      segundoNumero = aux;
+    }
+    System.out.println("Numeros ordenados : " +primerNumero + segundoNumero + tercerNumero);  
   }
 }
