@@ -9,7 +9,7 @@ public class Ejercicio13 {
     int aux;
         
     System.out.println("Este programa ordena tres números introducidos por teclado.");
-    System.out.println("Por favor, vaya introduciendo los tres números y pulsando INTRO:");
+    System.out.println("Por favor introduzca uno a uno, los tres números pulsando la tecla enter:");
     int a = Integer.parseInt(System.console().readLine());
     int b = Integer.parseInt(System.console().readLine());
     int c = Integer.parseInt(System.console().readLine());
