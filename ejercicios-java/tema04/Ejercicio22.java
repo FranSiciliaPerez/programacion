@@ -35,8 +35,7 @@ public class Ejercicio22 {
       default:
         System.out.print("El día introducido no es correcto.");
     }
-   System.out.print("Por favor, introduzca un día de la semana (de lunes a viernes): ");
-   int hora = Integer.parseInt(System.console().readLine());
+   System.out.println("El dia introducido es: " +diaNumerico);
 
    
    
