@@ -1,5 +1,5 @@
 /**
- * 
+ * Ejercicio24
  * 
  * @author Francisco J. Sicilia
  */
