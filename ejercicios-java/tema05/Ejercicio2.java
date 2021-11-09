@@ -3,9 +3,9 @@ public class Ejercicio2 {
         
         int n = 0;
         System.out.println("Los múltiplos de 5 de 0 a 100 son: ");
-        while (n < 100) {
+        while (n <= 100) {
+            System.out.println(n);
             n += 5;
-            System.out.println(" " + n);
         }
      }
 }
