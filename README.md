@@ -1,2 +1,2 @@
-# Programacion
-En este repositorio se encuentran los ejercicios realizados para la asignatura Programación
+# Programación
+En este repositorio se encuentran los ejercicios realizados en el módulo de Programación 
