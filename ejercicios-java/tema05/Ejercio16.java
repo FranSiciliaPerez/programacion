@@ -4,14 +4,14 @@ public class Ejercio16 {
         int numeroIntroducido = Integer.parseInt(System.console().readLine());
         boolean esPrimo = true;
         for (int i = 2; i < numeroIntroducido; i++) {
-          if ((numeroIntroducido % i) == 0) {
-            esPrimo = false;
+            if ((numeroIntroducido % i) == 0) {
+                esPrimo = false;
             }
         }
         if (esPrimo) {
-        System.out.println("El número introducido es primo.");
+            System.out.println("El número introducido es primo.");
         } else {
-        System.out.println("El número introducido no es primo.");
+            System.out.println("El número introducido no es primo.");
         }
     }
 }
