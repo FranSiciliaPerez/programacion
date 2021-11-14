@@ -7,12 +7,17 @@ public class Ejercicio11 {
         System.out.println("--A continuación añade un número para calcular el cuadrado y el cubo de este--");
         System.out.printf("Introduce un número: ");
         int n = Integer.parseInt(System.console().readLine());
-        
-        int cuadrado = n;
-        int cont = 0;
+        boolean cont = false;
 
-        while (cont <= 5) {
-
+        while ( n < 10 ) {
+            if (cont = false) {
+                b = n/10;
+            } else {
+                if (cont > 5){
+                    System.out.println("grt" + n+ cont);
+                    cont = false;
+                }
+            }
         }
     }
 }
