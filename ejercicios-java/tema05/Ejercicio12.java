@@ -9,6 +9,12 @@
 */
 public class Ejercicio12 {
     public static void main(String[] args) {
-        
+        System.out.println("Introduce un número de la serie de Fibonacci");
+        int n = Integer.parseInt(System.console().readLine());
+        int n2 =0;
+        while (n2 <= 144) {
+            System.out.println("El numero es: " + n);
+            n++;
+        }
     }
 }
