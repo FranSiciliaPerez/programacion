@@ -1,24 +1,23 @@
 /*
  * Escribe un programa que muestre en tres columnas, el cuadrado y el cubo de
- * los 5 primeros números enteros a partir de uno que se introduce por teclado.
+ * los 5 primeros números enteros(los que van despues del número introducido) a partir de uno que se introduce por teclado.
 */
 public class Ejercicio11 {
     public static void main(String[] args) {
         System.out.println("--A continuación añade un número para calcular el cuadrado y el cubo de este--");
         System.out.printf("Introduce un número: ");
         int n = Integer.parseInt(System.console().readLine());
-        boolean cont = false;
+        int cont = 0;
+        int n2 = 0;
+        int n3 = 0;
 
-        while ( n < 10 ) {
-            if (cont = false) {
-                b = n/10;
-            } else {
-                if (cont > 5){
-                    System.out.println("grt" + n+ cont);
-                    cont = false;
-                }
-            }
+        while (cont <= 5) {
+            n2 = n * n;
+            n3 = n * n * n;
+            System.out.println("Número introducido: " + n + " Cuadrado: " + n2 + " Cubo: " + n3);
+            n++;
+            cont++;
+
         }
-        System.out.println("Número introducido " + + " al cuadrado " + + " al cubo " +);
     }
 }
