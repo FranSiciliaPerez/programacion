@@ -9,15 +9,23 @@ public class Ejercicio13 {
 
         System.out.println("Introduce 10 números(pueden ser positivos y negativos)");
         System.out.printf("Introduce un número");
-        int n Integer.parseInt(System.console().readLine());
+        int num = Integer.parseInt(System.console().readLine());
         int cont = 0;
         int contn = 0;
-        int contp = 0,
+        int contp = 0;
         
         for (cont <= 10) {
-            if (n < 0 ){
-
+            if (num < 0) {
+                contn++;
+                cont++;
+            } else {
+                contp++;
+                cont++;
             }
         }
+    }
+
+    private static Object cont(int i) {
+        return null;
     }
 }
