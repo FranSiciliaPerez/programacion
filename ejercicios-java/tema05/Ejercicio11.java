@@ -19,5 +19,6 @@ public class Ejercicio11 {
                 }
             }
         }
+        System.out.println("Número introducido " + + " al cuadrado " + + " al cubo " +);
     }
 }
