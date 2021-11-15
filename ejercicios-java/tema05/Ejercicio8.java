@@ -1,6 +1,7 @@
 /*
  * Muestra la tabla de multiplicar de un número introducido por teclado.
- * @author Francisco Sicilia Pérez
+ * 
+ * @author Francisco Sicilia
 */
 public class Ejercicio8 {
     public static void main(String[] args) {

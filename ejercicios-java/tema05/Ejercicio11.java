@@ -1,6 +1,7 @@
 /*
  * Escribe un programa que muestre en tres columnas, el cuadrado y el cubo de
- * los 5 primeros números enteros(los que van despues del número introducido) a partir de uno que se introduce por teclado.
+ * los 5 primeros números enteros(los que van despues del número introducido) a partir de uno que se introduce  * por teclado.
+ * Francisco Sicilia
 */
 public class Ejercicio11 {
     public static void main(String[] args) {
@@ -17,7 +18,6 @@ public class Ejercicio11 {
             System.out.println("Número introducido: " + n + " Cuadrado: " + n2 + " Cubo: " + n3);
             n++;
             cont++;
-
         }
     }
 }

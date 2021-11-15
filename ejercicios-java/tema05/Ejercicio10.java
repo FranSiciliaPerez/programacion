@@ -3,10 +3,12 @@
  * introducidos por teclado. A priori, el programa no sabe cuántos números se
  * introducirán. El usuario indicará que ha terminado de introducir los datos
  * cuando meta un número negativo.
+ * 
+ * @author Francisco Sicilia
 */
 public class Ejercicio10 {
     public static void main(String[] args) {
-        System.out.println("A continuacion, introduzca los números para calcular su media");
+        System.out.println("A continuacion, introduzca los números para calcular su media(para parar de introducir notas, pon un número negativo)");
         double notaMedia = 0;
         int cont = 0;
         System.out.printf("Introduce una nota: ");

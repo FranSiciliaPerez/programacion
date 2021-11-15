@@ -5,6 +5,8 @@
  * máximo. En esta ocasión, hay que realizar el ejercicio utilizando bucles; de
  * esta manera, la única limitación en el número de dígitos la establece el tipo de
  * dato que se utilice (int o long).
+ * 
+ * @author Francisco Sicilia
 */
 public class Ejercicio9 {
     public static void main(String[] args) {
