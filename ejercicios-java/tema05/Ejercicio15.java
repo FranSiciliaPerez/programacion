@@ -5,7 +5,7 @@
  * utilizar funciones de exponenciación. Por ejemplo, si introducimos el 2 y el 5,
  * se deberán mostrar 21, 22, 23, 24 y 25.
  * 
- * Francisco Sicilia
+ * @Francisco Sicilia
 */
 public class Ejercicio15 {
     public static void main(String[] args) {
