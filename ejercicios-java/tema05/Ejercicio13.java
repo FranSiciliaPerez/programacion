@@ -8,24 +8,24 @@ public class Ejercicio13 {
     public static void main(String[] args) {
 
         System.out.println("Introduce 10 números(pueden ser positivos y negativos)");
-        System.out.printf("Introduce un número");
-        int num = Integer.parseInt(System.console().readLine());
+        int num = 0;
         int cont = 0;
         int contn = 0;
         int contp = 0;
         
-        for (cont <= 10) {
+        while (cont <= 9) {
             if (num < 0) {
+                System.out.printf("Introduce un número: ");
+                num = Integer.parseInt(System.console().readLine());
                 contn++;
                 cont++;
             } else {
+                System.out.printf("Introduce un número: ");
+                num = Integer.parseInt(System.console().readLine());
                 contp++;
                 cont++;
             }
         }
-    }
-
-    private static Object cont(int i) {
-        return null;
+        System.out.println("De los números introducidos hay " + contp + " positivo/s y " + contn + " negativo/s");
     }
 }
