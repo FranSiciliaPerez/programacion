@@ -12,19 +12,16 @@ public class Ejercicio13 {
         int cont = 0;
         int contn = 0;
         int contp = 0;
-        
-        while (cont <= 9) {
+
+        while (cont < 10) {
+            System.out.printf("Introduce un número: ");
+            num = Integer.parseInt(System.console().readLine());
             if (num < 0) {
-                System.out.printf("Introduce un número: ");
-                num = Integer.parseInt(System.console().readLine());
                 contn++;
-                cont++;
             } else {
-                System.out.printf("Introduce un número: ");
-                num = Integer.parseInt(System.console().readLine());
                 contp++;
-                cont++;
             }
+            cont++;
         }
         System.out.println("De los números introducidos hay " + contp + " positivo/s y " + contn + " negativo/s");
     }

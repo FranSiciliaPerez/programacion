@@ -12,5 +12,6 @@ public class Ejercicio18 {
 
         System.out.printf("Intoduce el segundo número: ");
         int n2 Integer.parseInt(System.console().readLine());
+        
     }
 }

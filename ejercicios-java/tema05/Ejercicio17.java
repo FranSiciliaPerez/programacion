@@ -13,10 +13,11 @@ public class Ejercicio17 {
         if (n >= 0) {
             System.out.println("El número introducido " + n + " es positivo, la operación continua");
             int cont = 100;
+            System.out.println("Segun el número introducido, estos le siguen: ");
             while (cont >= 0) {
                 n ++;
                 cont -= 1;
-                System.out.println("Segun el número introducido, estos le siguen: " + n);
+                System.out.println(" " + n);
             }
         } else {
             System.out.println("El número introducido " + n + " es negativo");
