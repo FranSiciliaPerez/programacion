@@ -15,6 +15,15 @@ public class Ejercicio18 {
         
         if (n1 != n2) {
             System.out.println("Los números introducidos son diferentes entre si, puede continuar");
+            System.out.println("Los comprendidos entre los numeros introducidos son: ");
+            while (n1 > n2) {
+                n2 +=7;
+                System.out.println(" " + n2);
+            }
+            while (n2 > n1) {
+                n1 +=7;
+                System.out.println(" " + n1);
+            }
         } else {
             System.out.println("Los números introducidos son iguales, no e puede llevar a cabo el programa.");
         } 
