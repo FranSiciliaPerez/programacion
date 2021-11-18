@@ -8,10 +8,15 @@ public class Ejercicio18 {
     public static void main(String[] args) {
         System.out.printf("A continuación introduce dos números para mostrar los números comprendidos entre ellos");
         System.out.printf("Intoduce el primer número: ");
-        int n1 Integer.parseInt(System.console().readLine());
+        int n1 = Integer.parseInt(System.console().readLine());
 
         System.out.printf("Intoduce el segundo número: ");
-        int n2 Integer.parseInt(System.console().readLine());
+        int n2 = Integer.parseInt(System.console().readLine());
         
+        if (n1 != n2) {
+            System.out.println("Los números introducidos son diferentes entre si, puede continuar");
+        } else {
+            System.out.println("Los números introducidos son iguales, no e puede llevar a cabo el programa.");
+        } 
     }
 }
