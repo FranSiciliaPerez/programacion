@@ -6,7 +6,7 @@
 */
 public class Ejercicio18 {
     public static void main(String[] args) {
-        System.out.printf("A continuación introduce dos números para mostrar los números comprendidos entre ellos");
+        System.out.println("A continuación introduce dos números para mostrar los números comprendidos entre ellos");
         System.out.printf("Intoduce el primer número: ");
         int n1 = Integer.parseInt(System.console().readLine());
 
