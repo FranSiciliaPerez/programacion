@@ -11,8 +11,6 @@ public class Ejercicio19 {
         /*Simbolo = b*/
         System.out.printf("A continuación, introduczca un carácter por pantalla para realizar la pirámide: ");
         String b = System.console().readLine();
-        for (a = 0; i++) {
-            
-        }
+        
     }
 }
