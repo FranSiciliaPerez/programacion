@@ -5,10 +5,14 @@
 */
 public class Ejercicio19 {
     public static void main(String[] args) {
+        /*Altura = a*/
         System.out.printf("A continuación, introduczca la altura de la pirámide: ");
-        int n = Integer.parseInt(System.console().readLine());
-
+        int a = Integer.parseInt(System.console().readLine());
+        /*Simbolo = b*/
         System.out.printf("A continuación, introduczca un carácter por pantalla para realizar la pirámide: ");
-        String simbolo = System.console().readLine();
+        String b = System.console().readLine();
+
+        System.out.println("  "+b);
+        System.out.println(" " +b+ " " +b);
     }
 }
