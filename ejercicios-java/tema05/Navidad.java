@@ -5,10 +5,18 @@ public class Navidad {
         System.out.printf("Por favor, introduzca la altura: ");
         int h = Integer.parseInt(System.console().readLine());
         System.out.println("⭐");
-        for (int i = h - 3; i > 0; i--) {
-            System.out.println(" /");
+        
+        for (int j = e; j <= e; i++){
+            System.out.println(" ");
+
         }
-        System.out.println(" #");
-        System.out.println(" #");
+        for (int i = h - 3; i > 0; i--) {
+            System.out.println(e + "/");
+            
+        }
+        for (int k =;){
+            System.out.println("#");
+            System.out.println("#");
+        }
     }
 }
