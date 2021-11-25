@@ -9,7 +9,7 @@ public class Ejercicio14 {
         System.out.println("A continuación introduzca una base y exponente positivo para calcular su potencia");
         System.out.printf("Introduzca la base: ");
         int base = Integer.parseInt(System.console().readLine());
-        
+
         System.out.printf("Introduzca el exponente: ");
         int expo = Integer.parseInt(System.console().readLine());
         int potencia = 1;
