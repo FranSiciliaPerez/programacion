@@ -18,7 +18,7 @@ public class Ejercicio21 {
             n = Integer.parseInt(System.console().readLine());  
             cont++;
             pruebaImp = n % 2;
-            if (pruebaImp != 0){
+            if ((pruebaImp != 0) && (n >=0)){
                 contImp++;
                 mediaImp = (nImp + n)/contImp;
             }
