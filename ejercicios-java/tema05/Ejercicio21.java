@@ -10,17 +10,19 @@ public class Ejercicio21 {
         int n = 1;
         int cont = -1;
         int pruebaImp = 0;
+        int nImp = 0;
         int contImp = 0;
-        while (n > 0) {
+        int mediaImp = 0;
+        while (n >= 0) {
             System.out.printf("Introduce un número: ");
             n = Integer.parseInt(System.console().readLine());  
             cont++;
             pruebaImp = n % 2;
-            if (pruebaImp == 0){
-                mediaImp + n
+            if (pruebaImp != 0){
                 contImp++;
+                mediaImp = (nImp + n)/contImp;
             }
         }
-        System.out.println("Se han introducido "+ cont + " números, de los que la media impar es "+ mediaImp); 
+        System.out.println("Se han introducido "+ cont + " números, de los que la media impar es "+contImp+" " +mediaImp); 
     }
 }
