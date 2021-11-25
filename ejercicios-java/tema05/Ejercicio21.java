@@ -13,8 +13,8 @@ public class Ejercicio21 {
         int contImp = 0;
         int sumaImp = 0;
         int mediaImp;
-        int npar = 0;
-        int contPar = 0;
+        int nPar = 0;
+        int sumaPar = 0;
         while (n >= 0) {
             System.out.printf("Introduce un número: ");
             n = Integer.parseInt(System.console().readLine());  
@@ -24,11 +24,16 @@ public class Ejercicio21 {
                 sumaImp +=n;
                 contImp++;
             }
-           /* if (pruebaN == 0){
-                cont
-            }*/
+            if (pruebaN == 0){
+                if (sumaPar >= n){
+                    sumaPar = nPar;
+                }
+                if(nPar < n) {
+                    sumaPar = nPar + n;
+                }
+            }
         }
         mediaImp = sumaImp/(contImp);
-        System.out.println("Se ha introducido "+ cont + " números, la media de los impares es " +mediaImp+ "el número par mayor es: " +npar); 
+        System.out.println("Se ha introducido "+ cont + " números, la media de los impares es " +mediaImp+ " el número par mayor es: " +sumaPar); 
     }
 }
