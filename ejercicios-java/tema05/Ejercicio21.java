@@ -8,12 +8,14 @@ public class Ejercicio21 {
     public static void main(String[] args) {
         System.out.println("A continuación introduce números, para salir, ponga un número negativo");
         int n = 1;
-        int cont = 0;
+        int cont = -1;
+        int media = 0;
         while (n > 0) {
             System.out.printf("Introduce un número: ");
             n = Integer.parseInt(System.console().readLine());  
             cont++;
+           
         }
-        System.out.println(""+ cont);  
+        System.out.println(""+ cont); 
     }
 }
