@@ -9,20 +9,20 @@ public class Ejercicio21 {
         System.out.println("A continuación introduce números, para salir, ponga un número negativo");
         int n = 1;
         int cont = -1;
-        int pruebaImp = 0;
-        int nImp = 0;
         int contImp = 0;
-        int mediaImp = 0;
+        int sumaImp = 0;
+        int mediaImp;
+        int npar =0;
         while (n >= 0) {
             System.out.printf("Introduce un número: ");
             n = Integer.parseInt(System.console().readLine());  
             cont++;
-            pruebaImp = n % 2;
-            if ((pruebaImp != 0) && (n >=0)){
+            if ((n != 0) && (n >=0)){
+                sumaImp +=5;
                 contImp++;
-                mediaImp = (nImp + n)/contImp;
             }
         }
-        System.out.println("Se han introducido "+ cont + " números, de los que la media impar es "+contImp+" " +mediaImp); 
+        mediaImp = sumaImp/(contImp);
+        System.out.println("Se han introducido "+ cont + " números, la media de los impares es " +mediaImp+ "el número par mayor es: " +npar); 
     }
 }
