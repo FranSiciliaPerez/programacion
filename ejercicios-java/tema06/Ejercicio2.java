@@ -10,14 +10,32 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         
         int carta = (int)(Math.random()*13) + 1;
-        String numeroCart; 
-        if (carta > 10){
-            numeroCart;
+        int numPalo =  (int)(Math.random()*4) + 1;
+        if ((carta > 1) && (carta <= 10)){
+            System.out.printf("La carta es "+carta);
         }
 
-        switch(){
-            case "1":
-
+        switch (carta) {
+            case 1: 
+                System.out.printf("La carta es A");
+            case 11 :
+                System.out.printf("La carta es J");
+            case 12:
+                System.out.printf("La carta es Q");
+            case 13:
+                System.out.printf("La carta es K");
+            break;
+        }
+        switch (numPalo) {
+            case 1: 
+                System.out.printf(" de rombos");
+            case 2 :
+                System.out.printf(" de Picas");
+            case 3:
+                System.out.printf(" de corazones");
+            case 4: 
+                System.out.printf(" de tréboles");
+            break;
         }
     }
 }
