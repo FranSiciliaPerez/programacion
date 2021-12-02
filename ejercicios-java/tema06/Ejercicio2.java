@@ -36,7 +36,7 @@ public class Ejercicio2 {
                 System.out.printf(" de rombos");
             break;
             case 2 :
-                System.out.printf(" de Picas");
+                System.out.printf(" de picas");
             break;
             case 3:
                 System.out.printf(" de corazones");
