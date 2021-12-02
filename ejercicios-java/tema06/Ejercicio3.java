@@ -4,8 +4,8 @@
  * 
  * Author Francisco Sicilia
 */
-public class Ejercicio6 {
+public class Ejercicio3 {
     public static void main(String[] args) {
-        System.out.println("hola");
+        
     }
 }

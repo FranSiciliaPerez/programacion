@@ -5,6 +5,8 @@
  * numerales y 4 literales: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K y A (que sería el
  * 1). Para convertir un número en una cadena de caracteres podemos usar
  * String.valueOf(n).
+ * 
+ * Author Francisco Sicilia
 */
 public class Ejercicio2 {
     public static void main(String[] args) {
