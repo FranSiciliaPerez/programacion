@@ -18,10 +18,13 @@ public class Ejercicio2 {
         switch (carta) {
             case 1: 
                 System.out.printf("La carta es A");
+            break;
             case 11 :
                 System.out.printf("La carta es J");
+            break;
             case 12:
                 System.out.printf("La carta es Q");
+            break;
             case 13:
                 System.out.printf("La carta es K");
             break;
@@ -29,10 +32,13 @@ public class Ejercicio2 {
         switch (numPalo) {
             case 1: 
                 System.out.printf(" de rombos");
+            break;
             case 2 :
                 System.out.printf(" de Picas");
+            break;
             case 3:
                 System.out.printf(" de corazones");
+            break;
             case 4: 
                 System.out.printf(" de tréboles");
             break;
