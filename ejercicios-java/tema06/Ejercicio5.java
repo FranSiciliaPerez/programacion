@@ -20,7 +20,7 @@ public class Ejercicio5 {
             }
         }
         nMedia = media / 50;
-        System.out.println("La media de los números introducido es "+nMedia);
+        System.out.println("\nLa media de los números introducido es "+nMedia);
         System.out.println("Hola "+max);
     }
 }
