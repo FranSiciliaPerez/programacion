@@ -24,9 +24,9 @@ public class Ejercicio6 {
         }
         System.out.println("|");
         for (i = 0; i < 75; i++) {
-        System.out.print("￿");  
+        System.out.print("-");  
         }
-        System.out.println("￿");
+        System.out.println(" ");
         for (i = 0; i < 15; i++) {
         System.out.printf("|%3d ", numero[i]);
         }
@@ -40,15 +40,15 @@ public class Ejercicio6 {
         numero[0] = aux;
 ////////////////////////////////////////////
 // Muestra el array rotado /////////////////
-        System.out.println("\nArray rotado a la derecha una posición:");
+        System.out.println("\nArray ha rotado una posicion a la derecha:");
         for (i = 0; i < 15; i++) {
         System.out.printf("|%3d ", i);
         }
         System.out.println("|");
         for (i = 0; i < 75; i++) {
-        System.out.print("￿");
+        System.out.print("-");
         }
-        System.out.println("￿");
+        System.out.println("-");
         for (i = 0; i < 15; i++) {
         System.out.printf("|%3d ", numero[i]);
         }
