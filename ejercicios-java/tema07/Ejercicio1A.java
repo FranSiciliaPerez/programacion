@@ -1,3 +1,12 @@
+/**
+* 7.2 Arrays bidimensionales
+*
+* 1. Define un array de números enteros de 3 filas por 6 columnas con
+* nombre "num" y asigna los valores según la siguiente tabla:
+* num:
+*
+* Francisco Sicilia Perez
+*/
 public class Ejercicio1A {
     public static void main(String[] args) {
         int[][] num = new int[3][6];
