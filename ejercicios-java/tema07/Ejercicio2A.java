@@ -1,19 +1,18 @@
-public class Ejercicio1A {
+public class Ejercicio2A {
     public static void main(String[] args) {
-        int[][] num = new int[3][6];
+        int[][] num = new int[4][5];
         num[0][0] = 0;
         num[0][1] = 30;
         num[0][2] = 2;
-        num[0][5] = 5;
+        num[0][4] = 5;
         num[1][0] = 75;
         num[1][4] = 0;
         num[2][2] = -2;
-        num[2][5] = 11;
+        num[2][4] = 11;
         int fila, columna;
-        System.out.printf("Array num  Columna 0    Columna 1   Columna 2   Columna 3   Columna 4   Columna 5\n");
-        for (fila = 0; fila < 3; fila++) {
+        for (fila = 0; fila < 4; fila++) {
             System.out.printf(" Fila " + fila);
-            for (columna = 0; columna < 6; columna++) {
+            for (columna = 0; columna < 5; columna++) {
                 System.out.printf("%10d ", num[fila][columna]);
             }
             System.out.println();
