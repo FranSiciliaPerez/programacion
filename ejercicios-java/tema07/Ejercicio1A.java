@@ -1,15 +1,20 @@
 public class Ejercicio1A {
     public static void main(String[] args) {
-        int[][] n = new int[3][2]; // array de 3 filas por 2 columnas
-        n[0][0] = 20;
-        n[1][0] = 67;
-        n[1][1] = 33;
-        n[2][1] = 7;
+        int[][] num = new int[3][6]; // array de 3 filas por 2 columnas
+        num[0][0] = 0;
+        num[0][1] = 30;
+        num[0][2] = 2;
+        num[0][5] = 5;
+        num[1][0] = 75;
+        num[1][4] = 0;
+        num[2][2] = -2;
+        num[2][5] = 11;
         int fila, columna;
+        System.out.printf("Array num  Columna 0    Columna 1   Columna 2   Columna 3   Columna 4   Columna 5\n");
         for (fila = 0; fila < 3; fila++) {
-            System.out.print("Alumno: " + fila);
-            for (columna = 0; columna < 2; columna++) {
-                System.out.printf("%10d ", n[fila][columna]);
+            System.out.printf(" Fila " + fila);
+            for (columna = 0; columna < 6; columna++) {
+                System.out.printf("%10d ", num[fila][columna]);
             }
             System.out.println();
         }
