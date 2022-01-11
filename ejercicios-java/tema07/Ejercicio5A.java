@@ -10,13 +10,13 @@
 public class Ejercicio5A {
     public static void main(String[] args) {
 
-        int [][] numero = new int[0][1000];
+        int[][] numero = new int[6][10];
 
         int maximo = Integer.MIN_VALUE;
         int minimo = Integer.MAX_VALUE;
         int i;
-
-        for (i = 0; i < 60; i++){
+        System.out.println("Introduce 10 numeros pulsando ENTER para cada número:");
+        for (i = 0; i < 60; i++) {
             numero[i][i] = Integer.parseInt(System.console().readLine());
             if (numero[i][i] < minimo) {
                 minimo = numero[i][i];
@@ -25,6 +25,17 @@ public class Ejercicio5A {
                 maximo = numero[i][i];
             }
         }
-        
+        System.out.println();
+
+        for (i = 0; i < 10; i++) {
+            System.out.print(numero[i]);
+            if (numero[i][i] == maximo) {
+                System.out.print(" máximo");
+            }
+            if (numero[i][i] == minimo) {
+                System.out.print(" mínimo");
+            }
+            System.out.println();
+        }
     }
 }
