@@ -36,7 +36,7 @@ public class Ejercicio3A {
             System.out.printf("|%7d\n", sumaFila);
         }
         for (columna = 0; columna < 5; columna++) {
-            System.out.print("*******");
+            System.out.print("********");
         }
         System.out.println("**************");
         int sumaColumna;
