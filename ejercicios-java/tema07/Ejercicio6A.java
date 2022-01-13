@@ -8,7 +8,7 @@
 public class Ejercicio6A {
     public static void main(String[] args) {
         
-        int[][] num = new int[6][10];
+    
         int fila;
         int columna;
         int minimo = Integer.MAX_VALUE;
