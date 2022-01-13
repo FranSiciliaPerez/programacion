@@ -12,6 +12,6 @@ public class Ejercicio5A {
 
         int[][] numero = new int[6][10];
         numero[2][1] = 2;
-        System.out.println(""+ numero[][]);
+        System.out.println(""+ numero[2][1]);
     }
 }
