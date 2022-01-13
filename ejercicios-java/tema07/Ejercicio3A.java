@@ -1,7 +1,8 @@
 /**
  * 7.2 Arrays bidimensionales
  *
- * 3. Modifica el programa anterior de tal forma que los números que se
+ * Ejercicio 3 array bisimensional 
+ * Modifica el programa anterior de tal forma que los números que se
  * introducen en
  * el array se generen de forma aleatoria (valores entre 100 y 999).
  *
@@ -21,6 +22,7 @@ public class Ejercicio3A {
             for (columna = 0; columna < 5; columna++) {
                 System.out.print("Fila " + fila + ", columna " + columna + ": ");
                 number[fila][columna] = Integer.parseInt(System.console().readLine());
+                System.out.println(" ");
             }
         }
 
@@ -36,7 +38,7 @@ public class Ejercicio3A {
         for (columna = 0; columna < 5; columna++) {
             System.out.print("*******");
         }
-        System.out.println("***********");
+        System.out.println("**************");
         int sumaColumna;
         int sumaTotal = 0;
         for (columna = 0; columna < 5; columna++) {
