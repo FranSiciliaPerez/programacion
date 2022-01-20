@@ -10,6 +10,7 @@ public class Ejercicio6A {
         
     
         int fila;
+        int num;
         int columna;
         int minimo = Integer.MAX_VALUE;
         int filaMinimo = 0;
