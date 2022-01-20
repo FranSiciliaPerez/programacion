@@ -1,3 +1,4 @@
+package funciones;
 /**
  * Tema 08 Ejecicios de funciones biblioteca de  funciones matemáticas
  * 
