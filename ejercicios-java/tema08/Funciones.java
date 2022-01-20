@@ -37,8 +37,7 @@ public class Funciones {
     }
     public static void esPrimo {
      
-        System.out.print("\n"); // Salto de Línea
-        int numInt = 31;
+        System.out.print("\n");
   
         int contDivisores = 2;
         boolean pregPrimo = true;
