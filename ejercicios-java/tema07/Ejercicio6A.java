@@ -10,7 +10,6 @@ public class Ejercicio6A {
         
     
         int fila;
-        int num;
         int columna;
         int minimo = Integer.MAX_VALUE;
         int filaMinimo = 0;
@@ -18,6 +17,7 @@ public class Ejercicio6A {
         int maximo = Integer.MIN_VALUE;
         int filaMaximo = 0;
         int columnaMaximo = 0;
+        int[][] num;
 
         System.out.print("\n ");
         for(columna = 0; columna < 10; columna++) {
