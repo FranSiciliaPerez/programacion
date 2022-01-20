@@ -38,7 +38,8 @@ public class Funciones {
     public static void esPrimo {
      
         System.out.print("\n");
-  
+        
+        int numInt;
         int contDivisores = 2;
         boolean pregPrimo = true;
         do {
