@@ -53,6 +53,7 @@ public class Ejercicio6A {
             for(columna = 0; columna < 10; columna++) {
                 System.out.print("──────");
             }
+            
             System.out.println("\n\nEl máximo es " + maximo + " y está en la fila " + filaMaximo + ", columna " + columnaMaximo);
             System.out.println("El mínimo es " + minimo + " y está en la fila " + filaMinimo + ", columna " + columnaMinimo);
         }
