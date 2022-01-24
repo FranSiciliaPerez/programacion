@@ -1,3 +1,4 @@
+import Funciones.java
 /*
  * Ejercicio 6 array bisimensional
  * Modifica el programa anterior de tal forma que no se repita ningún número en
