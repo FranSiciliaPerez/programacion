@@ -5,5 +5,9 @@ public class DualGestion {
         Alumno alumno1 = new Alumno();
         Alumno pepillo = new Alumno(); 
         Alumno alunxs = new Alumno();
+        
+        System.out.println(pepillo);
+        pepillo.saluda();
+
     }
 }
