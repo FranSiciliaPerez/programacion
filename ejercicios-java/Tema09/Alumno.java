@@ -6,5 +6,6 @@ public class Alumno {
     String telefono;
     String estudiosPrevios = "Bachillerato";
     int añoNacimiento;
-    
+    boolean esRepetidor;
+    String[] codigosAsignaturas;
 }
