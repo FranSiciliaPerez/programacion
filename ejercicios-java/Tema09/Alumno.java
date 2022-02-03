@@ -35,7 +35,7 @@ public class Alumno {
                 cadena = cadena.toLowerCase();
             default:
                 break;
-                System.out.println(cadena);
         }
+            System.out.println(cadena);
     }
 }
