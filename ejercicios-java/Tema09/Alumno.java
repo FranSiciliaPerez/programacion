@@ -1,3 +1,8 @@
 public class Alumno {
-    numeroExpediente int
+    int numeroExpediente;
+    String nombre;
+    String apellidoa;
+    String telefono;
+    String estudiosPrevios = "Bachillerato";
+
 }
