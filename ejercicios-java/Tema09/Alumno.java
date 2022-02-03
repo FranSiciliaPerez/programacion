@@ -7,5 +7,14 @@ public class Alumno {
     String estudiosPrevios = "Bachillerato";
     int añoNacimiento;
     boolean esRepetidor;
-    String[] codigosAsignaturas;
+    
+    public Alumno() {
+        
+    }
+    public Alumno(int numeroExpediente, String nombre, String apellidoa) {
+        this.numeroExpediente = numeroExpediente;
+        this.nombre = nombre;
+        this.apellidoa = apellidoa;
+    }
+    
 }
