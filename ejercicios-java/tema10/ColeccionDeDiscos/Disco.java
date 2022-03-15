@@ -5,73 +5,71 @@ public class Disco {
     private String autor;
     private String titulo;
     private String genero;
-    private int duracion; // duración total en minutos
-  
+    private int duracion;
+
     public Disco(String c, String a, String t, String g, int d) {
-      this.codigo = c;
-      this.autor = a;
-      this.titulo = t;
-      this.genero = g;
-      this.duracion = d;
+        this.codigo = c;
+        this.autor = a;
+        this.titulo = t;
+        this.genero = g;
+        this.duracion = d;
     }
-  
+
     public String getCodigo() {
-      return codigo;
+        return codigo;
     }
-  
+
     public void setCodigo(String codigo) {
-      this.codigo = codigo;
+        this.codigo = codigo;
     }
-    
+
     public String getAutor() {
-      return autor;
+        return autor;
     }
-    
+
     public void setAutor(String autor) {
-      this.autor = autor;
+        this.autor = autor;
     }
-    
+
     public String getGenero() {
-      return genero;
+        return genero;
     }
-    
+
     public void setGenero(String genero) {
-      this.genero = genero;
+        this.genero = genero;
     }
-    
+
     public String getTitulo() {
-      return titulo;
+        return titulo;
     }
-    
+
     public void setTitulo(String titulo) {
-      this.titulo = titulo;
+        this.titulo = titulo;
     }
-    
+
     public int getDuracion() {
-      return duracion;
+        return duracion;
     }
-    
+
     public void setDuracion(int duracion) {
-      this.duracion = duracion;
+        this.duracion = duracion;
     }
-    
+
     @Override
     public String toString() {
-      String cadena = "\n------------------------------------------";
-      cadena += "\nCódigo: " + this.codigo;
-      cadena += "\nAutor: " + this.autor;
-      cadena += "\nTítulo: " + this.titulo;
-      cadena += "\nGénero: " + this.genero;
-      cadena += "\nDuración: " + this.duracion;
-      cadena += "\n------------------------------------------";
-      
-      return cadena;
+        String cadena = "\n------------------------------------------";
+        cadena += "\nCódigo: " + this.codigo;
+        cadena += "\nAutor: " + this.autor;
+        cadena += "\nTítulo: " + this.titulo;
+        cadena += "\nGénero: " + this.genero;
+        cadena += "\nDuración: " + this.duracion;
+        cadena += "\n------------------------------------------";
+
+        return cadena;
     }
-  
-    // Considero que dos discos son iguales si tienen el mismo código.
-    // Es obligatorio pasar un objeto genérico como parámetro.
+
     @Override
     public boolean equals(Object d) {
-      return (this.codigo).equals(((Disco)d).getCodigo());
+        return (this.codigo).equals(((Disco) d).getCodigo());
     }
-  }
+}
