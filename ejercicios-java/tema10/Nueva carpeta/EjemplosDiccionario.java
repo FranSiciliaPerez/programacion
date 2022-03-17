@@ -13,15 +13,27 @@ public class EjemplosDiccionario {
 
         Scanner s = new Scanner(System.in);
 
-        System.out.print("Introduce el código de la asignatura: ");
-        String codigoIntro = s.nextLine().toUpperCase();
+       // System.out.print("Introduce el código de la asignatura: ");
+       // String codigoIntro = s.nextLine().toUpperCase();
 
-        if (!asignaturas.containsKey(codigoIntro)) {
-            System.out.print("Esta asignatura no está registrada.");
-        } else {
-          System.out.println(asignaturas.get("Al codigo" + codigoIntro));
-          System.out.print(" le corresponde la asignatura ");
-          System.out.print(asignaturas.get(codigoIntro) + ".");
+      //  if (!asignaturas.containsKey(codigoIntro)) {
+      //      System.out.print("Esta asignatura no está registrada.");
+      //  } else {
+      //    System.out.print("Al codigo " + codigoIntro);
+      //    System.out.print(" le corresponde la asignatura ");
+      //    System.out.print(asignaturas.get(codigoIntro) + ".");
+      //  }
+
+        boolean vacio = true;
+
+        while (vacio) {
+            System.out.println("Introduce el codigo de la asinatura");
+            String codIntro = s.nextLine().toUpperCase();
+
+            if (asignaturas.containsKey(codIntro)){
+                vacio = true;
+            }
+
         }
     }
 }
