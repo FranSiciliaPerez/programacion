@@ -36,7 +36,8 @@ public class Ejercicio5 {
                         System.out.println("5. Menú principal");
                         System.out.print("Introduzca una opción: ");
                         opcionListado1 = Integer.parseInt(s.nextLine());
-                        get(album);
+                        System.out.println(album1
+                        );
                
                     break;
                 case 2:
