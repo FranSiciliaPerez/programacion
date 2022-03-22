@@ -11,9 +11,9 @@ public class Ejercicio5 {
 
         int opcion;
         
-        album.add(new Disco("GASA41", "Wim Mertens", "Maximazing the Audience", "instrumental", 50));
-        album.add(new Disco("FGHQ64", "Metallica", "Black album", "hard rock", 46));
-        album.add(new Disco("TYUI89", "Supersubmarina", "Viento de cara", "pop rock", 42));
+        album.add(new Disco("1", "Wim Mertens", "Maximazing the Audience", "instrumental", 50));
+        album.add(new Disco("2", "Metallica", "Black album", "hard rock", 46));
+        album.add(new Disco("3", "Supersubmarina", "Viento de cara", "pop rock", 42));
         do {
             System.out.println("\n\nCOLECCIÓN DE DISCOS");
             System.out.println("===================");
@@ -36,7 +36,22 @@ public class Ejercicio5 {
                         System.out.println("5. Menú principal");
                         System.out.print("Introduzca una opción: ");
                         opcionListado1 = Integer.parseInt(s.nextLine());
-                        System.out.println(album);
+                        switch(opcionListado1){
+                            case 1:
+                                System.out.println(album);
+                            break;
+                            case 2: 
+                                System.out.print("2");
+                            break;
+                            case 3: 
+                                System.out.print("3");
+                            break;
+                            case 4: 
+                                System.out.print("4");
+                            break;
+                        }
+                        
+
 
                     break;
                 case 2:
