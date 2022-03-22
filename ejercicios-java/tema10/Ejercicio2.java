@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 /**
  * Ejercicio 2 Tema 10
  * 
