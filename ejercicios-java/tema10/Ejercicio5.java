@@ -10,8 +10,7 @@ public class Ejercicio5 {
         Scanner s = new Scanner(System.in);
 
         int opcion;
-        int opcionListado1;
-
+        
         album.add(new Disco("GASA41", "Wim Mertens", "Maximazing the Audience", "instrumental", 50));
         album.add(new Disco("FGHQ64", "Metallica", "Black album", "hard rock", 46));
         album.add(new Disco("TYUI89", "Supersubmarina", "Viento de cara", "pop rock", 42));
@@ -28,6 +27,7 @@ public class Ejercicio5 {
             
             switch (opcion) {
                 case 1:
+                        int opcionListado1 = 0;
                         System.out.println("\nLISTADO\n=======");
                         System.out.println("1. Completo");
                         System.out.println("2. Por autor");
@@ -37,7 +37,7 @@ public class Ejercicio5 {
                         System.out.print("Introduzca una opción: ");
                         opcionListado1 = Integer.parseInt(s.nextLine());
                         System.out.println(album);
-               
+
                     break;
                 case 2:
                         System.out.println("\nNUEVO DISCO\n===========");
