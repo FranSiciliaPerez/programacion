@@ -15,6 +15,9 @@ public class Ejercicio5 {
         int DuracionIntroducido;
         int limiteIn;
         int limiteSup;
+        int codigoDisco;
+        int duracionIntro;
+        String tituloIntro;
 
         album.add(new Disco("1", "Daft Punk", "Verdis Cuo", "instrumental", 120));
         album.add(new Disco("2", "Eiffel 65", "Blue (Da Ba Dee)", "techno", 180));
@@ -92,8 +95,32 @@ public class Ejercicio5 {
                     }
 
                     break;
+
                 case 2:
+
                     System.out.println("\nNUEVO DISCO\n===========");
+                    System.out.print("Introduzca el código del disco: ");
+                    codigoDisco = Integer.parseInt(s.nextLine());
+
+                    while (album.contains(new Disco(codigoDisco, "", "", "", 0))) {
+                        System.out.println("Ese código ya existe en la base de datos.");
+                        System.out.print("Introduzca otro código: ");
+                        codigoDisco = s.nextLine();
+                    }
+
+                    System.out.print("Autor: ");
+                    autorIntroducido = s.nextLine();
+                    System.out.print("Título: ");
+                    tituloIntro = s.nextLine();
+                    System.out.print("Género: ");
+                    generoIntroducido = s.nextLine();
+                    System.out.print("Duración: ");
+                    duracionIntro = Integer.parseInt(s.nextLine());
+
+                    album.add(new Disco(codigoDisco, autorIntroducido, tituloIntro, generoIntroducido,
+                            duracionIntro));
+
+                    break;
 
                     break;
             }
