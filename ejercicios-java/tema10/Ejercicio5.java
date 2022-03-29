@@ -12,10 +12,9 @@ public class Ejercicio5 {
         int opcion;
         String autorIntroducido;
         String generoIntroducido;
-        int DuracionIntroducido;
         int limiteIn;
         int limiteSup;
-        int codigoDisco;
+        String codigoDisco;
         int duracionIntro;
         String tituloIntro;
 
@@ -100,7 +99,7 @@ public class Ejercicio5 {
 
                     System.out.println("\nNUEVO DISCO\n===========");
                     System.out.print("Introduzca el código del disco: ");
-                    codigoDisco = Integer.parseInt(s.nextLine());
+                    codigoDisco = s.nextLine();
 
                     while (album.contains(new Disco(codigoDisco, "", "", "", 0))) {
                         System.out.println("Ese código ya existe en la base de datos.");
@@ -117,10 +116,7 @@ public class Ejercicio5 {
                     System.out.print("Duración: ");
                     duracionIntro = Integer.parseInt(s.nextLine());
 
-                    album.add(new Disco(codigoDisco, autorIntroducido, tituloIntro, generoIntroducido,
-                            duracionIntro));
-
-                    break;
+                    album.add(new Disco(codigoDisco, autorIntroducido, tituloIntro, generoIntroducido, duracionIntro));
 
                     break;
             }
