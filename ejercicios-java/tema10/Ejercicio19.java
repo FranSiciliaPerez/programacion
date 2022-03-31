@@ -30,6 +30,7 @@ public class Ejercicio19 {
         diccionario.put("grande", "big");
         diccionario.put("gigantesco", "big");
         System.out.println("Los elementos de m son: \n" + diccionario);
+        
     
     }
 }
