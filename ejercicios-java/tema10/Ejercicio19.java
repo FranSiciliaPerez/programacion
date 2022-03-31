@@ -29,8 +29,13 @@ public class Ejercicio19 {
         diccionario.put("hierro", "iron");
         diccionario.put("grande", "big");
         diccionario.put("gigantesco", "big");
-        System.out.println("Los elementos de m son: \n" + diccionario);
-        
+        String palabra;
+        do{
+            System.out.println("Introduzca una palabra y le daré los sinónimos: ");
+            palabra = System.console().readLine().toLowerCase();
+            System.out.println(diccionario.get(palabra));
+
+        } while (palabra.equals(salir));
     
     }
 }
