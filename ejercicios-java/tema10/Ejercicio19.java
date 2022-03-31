@@ -20,8 +20,8 @@ public class Ejercicio19 {
 
         HashMap<String, String> diccionario = new HashMap<String, String>();
 
-        diccionario.put("caliente","hot");
-        diccionario.put("rojo","red");
+        diccionario.put("caliente", "hot");
+        diccionario.put("rojo", "red");
         diccionario.put("ardiente", "hot");
         diccionario.put("verde", "green");
         diccionario.put("agujetas", "stiff");
@@ -30,12 +30,20 @@ public class Ejercicio19 {
         diccionario.put("grande", "big");
         diccionario.put("gigantesco", "big");
         String palabra;
-        do{
+
+        do {
             System.out.printf("Introduzca una palabra y le daré los sinónimos: ");
             palabra = System.console().readLine().toLowerCase();
-            System.out.println(diccionario.get(palabra));
+
+            if (diccionario.containsKey(palabra)) {
+
+                System.out.println(diccionario.get(palabra));
+
+            } else {
+                System.out.println("El código introducido no existe.");
+            }
 
         } while (!palabra.equals("salir"));
-    
+
     }
 }
