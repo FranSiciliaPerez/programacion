@@ -20,13 +20,16 @@ public class Ejercicio19 {
 
         HashMap<String, String> diccionario = new HashMap<String, String>();
 
-        m.put("caliente","hot");
-        m.put("rojo","red");
-        m.put("ardiente", "hot");
-        m.put("verde", "green");
-        m.put("agujetas", "");
-        m.put("abrasador", "hot");
-        System.out.println("Los elementos de m son: \n" + m);
+        diccionario.put("caliente","hot");
+        diccionario.put("rojo","red");
+        diccionario.put("ardiente", "hot");
+        diccionario.put("verde", "green");
+        diccionario.put("agujetas", "stiff");
+        diccionario.put("abrasador", "hot");
+        diccionario.put("hierro", "iron");
+        diccionario.put("grande", "big");
+        diccionario.put("gigantesco", "big");
+        System.out.println("Los elementos de m son: \n" + diccionario);
     
     }
 }
