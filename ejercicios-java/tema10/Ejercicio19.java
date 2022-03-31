@@ -31,11 +31,8 @@ public class Ejercicio19 {
         diccionario.put("gigantesco", "big");
         String palabra;
         do{
-            System.out.println("Introduzca una palabra y le daré los sinónimos: ");
+            System.out.printf("Introduzca una palabra y le daré los sinónimos: ");
             palabra = System.console().readLine().toLowerCase();
-            if (!palabra.equals){
-
-            }
             System.out.println(diccionario.get(palabra));
 
         } while (!palabra.equals("salir"));
