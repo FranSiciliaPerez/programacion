@@ -1,7 +1,7 @@
 
 public class Disco {
 
-    private int codigoDisco;
+    /*private int codigoDisco;
     private String autorIntroducido;
     private String generoIntro;
     private int duracionIntro;
@@ -37,5 +37,5 @@ String cadena = "\n------------------------------------------";
     cadena += "\nGénero: " + this.genero;
     cadena += "\nDuración: " + this.duracion;
     cadena += "\n------------------------------------------";
-return cadena;
+return cadena;*/
 }
