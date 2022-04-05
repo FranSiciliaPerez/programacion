@@ -40,7 +40,11 @@ public class Ejercicio19 {
                 System.out.println(diccionario.get(palabra));
 
             } else {
-                System.out.println("El código introducido no existe.");
+                if (palabra.equals("salir")){
+                    System.out.println();
+                } else{
+                    System.out.println("No conozco sinónimos de esa palabra.");
+                }
             }
 
         } while (!palabra.equals("salir"));
