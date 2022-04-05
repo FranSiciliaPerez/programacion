@@ -1,10 +1,10 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+/*import java.util.ArrayList;
+import java.util.Scanner;*/
 
 public class ColeccionDeDiscosConArrayList {
     public static void main(String[] args) {
 
-        ArrayList<Disco> album = new ArrayList<Disco>();
+        /*ArrayList<Disco> album = new ArrayList<Disco>();
 
         int i;
         String codigoIntroducido;
@@ -191,6 +191,6 @@ public class ColeccionDeDiscosConArrayList {
                         System.out.println("Album borrado.");
                     }
             } // switch
-        } while (opcion != 5);
+        } while (opcion != 5);*/
     }
 }
