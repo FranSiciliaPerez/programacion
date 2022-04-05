@@ -1,11 +1,11 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+/*import java.util.ArrayList;
+import java.util.Scanner;*/
 
 public class Ejercicio5 {
 
     public static void main(String[] args) {
 
-        ArrayList<Disco> album = new ArrayList<Disco>();
+        /*ArrayList<Disco> album = new ArrayList<Disco>();
 
         Scanner s = new Scanner(System.in);
 
@@ -121,6 +121,6 @@ public class Ejercicio5 {
                     break;
             }
 
-        } while (opcion != 5);
+        } while (opcion != 5);*/
     }
 }
