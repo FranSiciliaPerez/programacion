@@ -6,11 +6,11 @@ import java.io.IOException;
 public class EjercicioPrueba {
     public static void main(String[] args) {
 
-        String nombreFichero = "precios.txt";
+        final String NOMBRE_FICHERO = "precios.txt";
 
         try {
 
-            BufferedReader bf = new BufferedReader(new FileReader("malaga.txt"));
+            BufferedReader bf = new BufferedReader(new FileReader(NOMBRE_FICHERO));
             
             String linea = "";
             int numeroLineas = 0;
@@ -30,10 +30,10 @@ public class EjercicioPrueba {
             }
             bf.close();
         } catch (FileNotFoundException e) {
-            System.out.println("\nNO se encuentra el fichero " + nombreFichero);
+            System.out.println("\nNO se encuentra el fichero " + NOMBRE_FICHERO);
             System.out.println("");            
         } catch (IOException ioe) {
-            System.out.println("\nNO se encuentra el fichero " + nombreFichero);   
+            System.out.println("\nNO se encuentra el fichero " + NOMBRE_FICHERO);   
         }
     }
 }
