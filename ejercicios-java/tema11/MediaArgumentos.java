@@ -15,6 +15,7 @@ class MediaArgumentos {
 
      for (int i = 0; i < args.length; i++) {
         suma += Double.parseDouble(args[i]); 
+         
       }
       System.out.println(suma / args.length);
     }catch(){}
