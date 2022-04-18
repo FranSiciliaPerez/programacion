@@ -11,7 +11,7 @@ public class MetodosCadenas {
     }
     public static int miIndexOf(String frase, String palabra, int menor, int mayor){
             
-        if ((frase.indexOf(palabra, menor) <= mayor) && (frase.indexOf((palabra, menor) <= mayor) != -1)){
+        if ((frase.indexOf(palabra, menor) <= mayor) && (frase.indexOf(palabra, menor) != -1)){
             return frase.indexOf(palabra);
         } else {
             return -1;
