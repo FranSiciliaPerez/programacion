@@ -5,19 +5,19 @@ class MediaArgumentos {
 
   public static void main(String[] args) {
     
-    String numero = "numero.txt";
+   // String numero = "numero.txt";
 
-    try {
-      BufferedReader bf = new BufferedReader(new FileReader(numero));
+   // try {
+   //   BufferedReader bf = new BufferedReader(new FileReader(numero));
 
-      System.out.println("Introduce numeros:");
-      double suma = 0;
+   //   System.out.println("Introduce numeros:");
+   //   double suma = 0;
 
-     for (int i = 0; i < args.length; i++) {
-        suma += Double.parseDouble(args[i]); 
+    // for (int i = 0; i < args.length; i++) {
+   //     suma += Double.parseDouble(args[i]); 
          
-      }
-      System.out.println(suma / args.length);
-    }catch(){}
+   //   }
+   //   System.out.println(suma / args.length);
+    //}catch(){}
   }
 }
