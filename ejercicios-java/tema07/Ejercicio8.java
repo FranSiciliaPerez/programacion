@@ -17,8 +17,10 @@ public class Ejercicio8 {
         int j = 0;
         int partes;
         int parte1;
+        int parte2;
 
         //Genera el array y lo enseña por pantalla
+
         System.out.println("Array original");
         System.out.println("---------------");
 
@@ -29,8 +31,17 @@ public class Ejercicio8 {
             }
         }
 
+        //inicio de la rotación
+
         for(partes = 0; partes < 6; partes++) {
+            
             parte1 = n[partes][11 - partes];
+            for(i = 11 - partes; i > partes + 1; i--) {
+                n[i][11 - partes] = n[i-1][11 - partes];
+            }
+            
+            
+            parte2 = n[partes][11 - partes];
             for(i = 11 - partes; i > partes + 1; i--) {
                 n[i][11 - partes] = n[i-1][11 - partes];
             }
