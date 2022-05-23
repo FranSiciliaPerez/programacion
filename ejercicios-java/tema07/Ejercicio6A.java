@@ -1,4 +1,4 @@
-import Funciones.java
+//import Funciones.java
 /*
  * Ejercicio 6 array bisimensional
  * Modifica el programa anterior de tal forma que no se repita ningún número en
@@ -38,16 +38,19 @@ public class Ejercicio6A {
             for(columna = 0; columna < 10; columna++) {
                 num[fila][columna] = (int)(Math.random() * 1001);
                 System.out.printf("%5d ", num[fila][columna]);
+                
                 if (num[fila][columna] < minimo) {
                     minimo = num[fila][columna];
                     filaMinimo = fila;
                     columnaMinimo = columna;
                 }
+                
                 if (num[fila][columna] > maximo) {
                     maximo = num[fila][columna];
                     filaMaximo = fila;
                     columnaMaximo = columna;
                 }
+                
                 System.out.println("│");
             }
             System.out.print(" └");
@@ -55,7 +58,7 @@ public class Ejercicio6A {
                 System.out.print("──────");
             }
             
-            System.out.println("\n\nEl máximo es " + maximo + " y está en la fila " + filaMaximo + ", columna " + columnaMaximo);
+            System.out.println("\nEl máximo es " + maximo + " y está en la fila " + filaMaximo + ", columna " + columnaMaximo);
             System.out.println("El mínimo es " + minimo + " y está en la fila " + filaMinimo + ", columna " + columnaMinimo);
         }
     }
